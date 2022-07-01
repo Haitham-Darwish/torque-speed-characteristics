@@ -63,3 +63,13 @@ For the local min Req subtracted from negative value and when we add negative va
 Note that Vth is f(R1) so it may be hard to know what happen to the torque but from graph it seems that Req has dominant effect. 
 For the last region the |4R1|<|3R1|<|2R1| and that because R2'/s become small negative value then the output from the addition is positive so as Req increases the denominator increases and torque decreases  
 
+**Note that** it can be done in one shot as follow
+<pre>
+<code >
+  r=repmat((3 * v_th'.^2 * (r2) ./ s)', 1, 1, 4);
+  r2=repmat((w_sync' .* ((r_th + (r2)./s).^2 + (x_th + x2)^2) )', 1, 1, 5);
+  r2=permute(r2,[1,3,2]);
+  
+  t_ind3 =  r./r2;
+</code>
+</pre>
