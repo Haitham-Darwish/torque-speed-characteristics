@@ -1,4 +1,3 @@
-# Introduction
 
 ![image](https://user-images.githubusercontent.com/68920161/176968323-d1be87a5-ef5e-405a-9d65-261905cac2b1.png)
 
