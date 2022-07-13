@@ -1,3 +1,5 @@
+# Introduction
+- Used to plot torque vs speed, with changing resistance, voltage and frequency of stator and the we will explain what we have found
 
 ![image](https://user-images.githubusercontent.com/68920161/176968323-d1be87a5-ef5e-405a-9d65-261905cac2b1.png)
 
